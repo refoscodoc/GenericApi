@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alberto/RiderProjects/GenericApi/GenericAPI/GenericAPI.csproj": {}
+  },
+  "projects": {
+    "/home/alberto/RiderProjects/GenericApi/GenericAPI/GenericAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alberto/RiderProjects/GenericApi/GenericAPI/GenericAPI.csproj",
+        "projectName": "GenericAPI",
+        "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericAPI/GenericAPI.csproj",
+        "packagesPath": "/home/alberto/.nuget/packages/",
+        "outputPath": "/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj": {
+                "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj",
+        "projectName": "GenericApplication",
+        "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj",
+        "packagesPath": "/home/alberto/.nuget/packages/",
+        "outputPath": "/home/alberto/RiderProjects/GenericApi/GenericApplication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/alberto/RiderProjects/GenericApi/GenericPersistence/GenericPersistence.csproj": {
+                "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericPersistence/GenericPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj",
+        "projectName": "GenericDomain",
+        "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj",
+        "packagesPath": "/home/alberto/.nuget/packages/",
+        "outputPath": "/home/alberto/RiderProjects/GenericApi/GenericDomain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/alberto/RiderProjects/GenericApi/GenericPersistence/GenericPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alberto/RiderProjects/GenericApi/GenericPersistence/GenericPersistence.csproj",
+        "projectName": "GenericPersistence",
+        "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericPersistence/GenericPersistence.csproj",
+        "packagesPath": "/home/alberto/.nuget/packages/",
+        "outputPath": "/home/alberto/RiderProjects/GenericApi/GenericPersistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj": {
+                "projectPath": "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
