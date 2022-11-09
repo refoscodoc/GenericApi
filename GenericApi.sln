@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPersistence", "Gener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDomain", "GenericDomain\GenericDomain.csproj", "{511928D1-87EA-4804-A7EB-0A45E3AA20E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GenericMicroservice", "GenericMicroservice", "{CC0858A3-ECBB-4EA9-AA09-149792A5FF9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,10 @@ Global
 		{511928D1-87EA-4804-A7EB-0A45E3AA20E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511928D1-87EA-4804-A7EB-0A45E3AA20E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511928D1-87EA-4804-A7EB-0A45E3AA20E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70E162B8-FDEE-4D4C-87BD-9C77BC948CB0} = {CC0858A3-ECBB-4EA9-AA09-149792A5FF9B}
+		{9A845F45-528A-4293-B183-B2016212F8B5} = {CC0858A3-ECBB-4EA9-AA09-149792A5FF9B}
+		{F2282AF6-90A5-4B0E-9BDA-48C09821B2AD} = {CC0858A3-ECBB-4EA9-AA09-149792A5FF9B}
 	EndGlobalSection
 EndGlobal
