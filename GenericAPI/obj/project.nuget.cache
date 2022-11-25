@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b42hgo5dMN+1uhcLIkEn0eUVOX19AGAGTEyvUOPfkUApYnY8FTPAkp9EV4jK5ul9C7k7mvnvqG4dG5fdCibOAQ==",
+  "dgSpecHash": "rHVdxKcl5I/4QKFgFIUsxqYEg6Q3wqW4uSrofnG2aabwo0coN20E5wnlf0SYjd93cNHvD4qO3blWFcx/4EeOgw==",
   "success": true,
   "projectFilePath": "/home/alberto/RiderProjects/GenericApi/GenericAPI/GenericAPI.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,9 @@
     "/home/alberto/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "/home/alberto/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/alberto/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.10/microsoft.aspnetcore.app.ref.6.0.10.nupkg.sha512"
+    "/home/alberto/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/home/alberto/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.11/microsoft.netcore.app.host.linux-x64.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }
