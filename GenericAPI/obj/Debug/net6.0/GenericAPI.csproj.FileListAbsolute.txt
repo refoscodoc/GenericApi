@@ -4,7 +4,6 @@
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/GenericAPI.deps.json
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/GenericAPI.runtimeconfig.json
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/GenericAPI.dll
-/home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/ref/GenericAPI.dll
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/GenericAPI.pdb
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
@@ -49,3 +48,9 @@
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/MySqlConnector.dll
 /home/alberto/RiderProjects/GenericApi/GenericAPI/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/staticwebassets/msbuild.GenericAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/staticwebassets/msbuild.build.GenericAPI.props
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.GenericAPI.props
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.GenericAPI.props
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/staticwebassets.pack.json
+/home/alberto/RiderProjects/GenericApi/GenericAPI/obj/Debug/net6.0/refint/GenericAPI.dll

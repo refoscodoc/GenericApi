@@ -1,6 +1,5 @@
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/GenericPersistence.deps.json
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/GenericPersistence.dll
-/home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/ref/GenericPersistence.dll
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/GenericPersistence.pdb
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/obj/Debug/net6.0/GenericPersistence.csproj.AssemblyReference.cache
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/obj/Debug/net6.0/GenericPersistence.GeneratedMSBuildEditorConfig.editorconfig
@@ -21,3 +20,8 @@
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.Extensions.Features.xml
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Features.xml
 /home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/System.IO.Pipelines.xml
+/home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericPersistence/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericPersistence/obj/Debug/net6.0/refint/GenericPersistence.dll

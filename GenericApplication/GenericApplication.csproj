@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
     </PropertyGroup>
@@ -23,6 +23,9 @@
       </Reference>
       <Reference Include="MediatR.Contracts">
         <HintPath>..\..\..\.nuget\packages\mediatr.contracts\1.0.1\lib\netstandard2.0\MediatR.Contracts.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.AspNetCore.Http.Abstractions">
+        <HintPath>..\..\..\.nuget\packages\microsoft.aspnetcore.app.ref\7.0.5\ref\net7.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
       </Reference>
     </ItemGroup>
 

@@ -1,16 +1,22 @@
 using System.Reflection;
 using GenericApplication;
+using GenericDomain.Services;
 using GenericPersistence;
 using MediatR;
+using Microsoft.EntityFrameworkCore.Storage;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigureAppServices();
 builder.Services.PersistenceServices(builder.Configuration);
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddHostedService<TimedHostedService>();
 
 var app = builder.Build();
 

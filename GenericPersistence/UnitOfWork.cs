@@ -10,16 +10,19 @@ public class UnitOfWork : IUnitOfWork
 {
     private readonly GenericDbContext _context;
     private readonly IHttpContextAccessor _httpContextAccessor;
-    private  IDbContextTransaction _dbContextTransaction;
+    // private  IDbContextTransaction _dbContextTransaction;
 
     private IGuitarRepository _guitarRepository;
     private ISellerRepository _sellerRepository;
 
-    public UnitOfWork(GenericDbContext context, IHttpContextAccessor httpContextAccessor, IDbContextTransaction dbContextTransaction)
+    public UnitOfWork(GenericDbContext context, 
+        IHttpContextAccessor httpContextAccessor 
+        // IDbContextTransaction dbContextTransaction
+        )
     {
         _context = context;
         _httpContextAccessor = httpContextAccessor;
-        _dbContextTransaction = dbContextTransaction;
+        // _dbContextTransaction = dbContextTransaction;
     }
 
     public IGuitarRepository GuitarRepository =>
@@ -38,10 +41,10 @@ public class UnitOfWork : IUnitOfWork
     public void Dispose()
     {
         _context.Dispose();
-        if (_dbContextTransaction is not null)
-        {
-            _dbContextTransaction.Dispose();
-        }
+        // if (_dbContextTransaction is not null)
+        // {
+        //     _dbContextTransaction.Dispose();
+        // }
         GC.SuppressFinalize(this);
     }
 }

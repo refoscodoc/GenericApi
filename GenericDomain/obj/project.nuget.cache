@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f1sHrXBW7bZs6wyY1+aYrrQclCAR/BORRNK2vuV3ZwySsrM4w9uncDTVRf6nJEuh+YmtTIW9/uA/txy39qbkPw==",
+  "dgSpecHash": "3xuGnEi7HI8Kjzd963s+nlCbyuCVGI6p9QdMh16fYrw1Dq07/6KgN+1eObGHdGvY+CKl3LFgTBlyGJulxIP2rA==",
   "success": true,
   "projectFilePath": "/home/alberto/RiderProjects/GenericApi/GenericDomain/GenericDomain.csproj",
   "expectedPackageFiles": [
-    "/home/alberto/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

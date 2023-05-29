@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e0BxDHyaTgQd9ezvOMxTrMTfyPm5258Bse0tOtzBZHVZAiTjQvSDKhwhWvRVTLWBkBEeHhC3BnQgBScq7cqC7g==",
+  "dgSpecHash": "sdnyS7Mo12PxcAuRn9GhyYtDpuHSt5pgk5llolAXxxYxvkHNxA5jQhYXmBcqSIjJSLO8a6WAhxByBf21VEgdmg==",
   "success": true,
   "projectFilePath": "/home/alberto/RiderProjects/GenericApi/GenericApplication/GenericApplication.csproj",
   "expectedPackageFiles": [
@@ -25,9 +25,7 @@
     "/home/alberto/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/home/alberto/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/home/alberto/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.2/pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
-    "/home/alberto/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/home/alberto/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+    "/home/alberto/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.5/microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }

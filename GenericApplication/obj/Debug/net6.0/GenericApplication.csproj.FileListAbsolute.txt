@@ -1,6 +1,5 @@
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/GenericApplication.deps.json
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/GenericApplication.dll
-/home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/ref/GenericApplication.dll
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/GenericApplication.pdb
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/GenericPersistence.dll
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/GenericPersistence.pdb
@@ -23,3 +22,8 @@
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.Extensions.Features.xml
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.AspNetCore.Http.Features.xml
 /home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/System.IO.Pipelines.xml
+/home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericApplication/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericApplication/obj/Debug/net6.0/refint/GenericApplication.dll

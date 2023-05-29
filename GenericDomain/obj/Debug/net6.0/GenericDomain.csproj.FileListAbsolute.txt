@@ -1,6 +1,5 @@
 /home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/GenericDomain.deps.json
 /home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/GenericDomain.dll
-/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/ref/GenericDomain.dll
 /home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/GenericDomain.pdb
 /home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/GenericDomain.csproj.AssemblyReference.cache
 /home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/GenericDomain.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,17 @@
 /home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/GenericDomain.dll
 /home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/ref/GenericDomain.dll
 /home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/GenericDomain.pdb
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Hosting.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/bin/Debug/net6.0/Microsoft.Extensions.Primitives.xml
+/home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/GenericDomain.csproj.CopyComplete
+/home/alberto/RiderProjects/GenericApi/GenericDomain/obj/Debug/net6.0/refint/GenericDomain.dll
