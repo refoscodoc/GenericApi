@@ -2,7 +2,7 @@
 
 namespace GenericPersistence;
 
-public interface IUnitOfWork : IDisposable
+public interface IUnitOfWork : IAsyncDisposable
 {
     IGuitarRepository GuitarRepository { get; }
     ISellerRepository SellerRepository { get; }

@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using System.Xml.Linq;
 using GenericPersistence.DataAccess;
 using GenericPersistence.Repositories;
@@ -10,6 +11,7 @@ public class UnitOfWork : IUnitOfWork
 {
     private readonly GenericDbContext _context;
     private readonly IHttpContextAccessor _httpContextAccessor;
+    private bool _disposed;
     // private  IDbContextTransaction _dbContextTransaction;
 
     private IGuitarRepository _guitarRepository;
@@ -33,18 +35,36 @@ public class UnitOfWork : IUnitOfWork
 
     public async Task Save()
     {
-        // var username = _httpContextAccessor.HttpContext.User.FindFirst(CustomClaimTypes.Uid)?.Value;
-        // await _context.SaveChangesAsync(username);
+        if (_httpContextAccessor.HttpContext != null)
+        {
+            var username = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name)?.Value;
+        }
+
         await _context.SaveChangesAsync();
     }
     
-    public void Dispose()
+    public async ValueTask DisposeAsync()
     {
-        _context.Dispose();
-        // if (_dbContextTransaction is not null)
-        // {
-        //     _dbContextTransaction.Dispose();
-        // }
+        await DisposeAsync(true);
+ 
+        // Take this object off the finalization queue to prevent 
+        // finalization code for this object from executing a second time.
         GC.SuppressFinalize(this);
+    }
+
+    protected virtual async ValueTask DisposeAsync(bool disposing)
+    {
+        if (!_disposed)
+        {
+            if (disposing)         
+            {
+                // Dispose managed resources.
+                await _context.DisposeAsync();
+            }
+
+            // Dispose any unmanaged resources here...
+ 
+            _disposed = true;
+        }
     }
 }
