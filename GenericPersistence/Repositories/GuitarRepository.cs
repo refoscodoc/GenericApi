@@ -1,4 +1,5 @@
 using GenericAPI.Models;
+using GenericDomain.Models;
 using GenericPersistence.DataAccess;
 using Microsoft.EntityFrameworkCore;
 

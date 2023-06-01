@@ -1,6 +1,7 @@
+using GenericAPI.Models;
 using GenericAPI.Models.BaseModels;
 
-namespace GenericAPI.Models;
+namespace GenericDomain.Models;
 
 public class GuitarModel : BaseEntity
 {

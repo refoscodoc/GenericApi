@@ -2,12 +2,13 @@ using AutoMapper;
 using GenericAPI.Dtos;
 using GenericAPI.Models;
 using GenericApplication.Features.Requests.Commands;
+using GenericDomain.Models;
 using GenericPersistence;
 using MediatR;
 
 namespace GenericApplication.Features.Handlers.Commands;
 
-public class CreateGuitarCommandHandler : IRequestHandler<CreateGuitarCommand, GuitarDto>
+public class CreateGuitarCommandHandler : IRequestHandler<CreateGuitarCommand, GuitarModel>
 {
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -18,15 +19,15 @@ public class CreateGuitarCommandHandler : IRequestHandler<CreateGuitarCommand, G
         _mapper = mapper;
     }
     
-    public async Task<GuitarDto> Handle(CreateGuitarCommand request, CancellationToken cancellationToken)
+    public async Task<GuitarModel> Handle(CreateGuitarCommand request, CancellationToken cancellationToken)
     {
-        var response = new GuitarDto();
+        var response = new GuitarModel();
 
         if (request.CreateGuitarDto is not null)
         {
-            var guitar = _mapper.Map<GuitarModel>(request.CreateGuitarDto);
-            guitar.IsActive = true;
-            await _unitOfWork.GuitarRepository.Add(guitar);
+            response = _mapper.Map<GuitarModel>(request.CreateGuitarDto);
+            response.IsActive = true;
+            await _unitOfWork.GuitarRepository.Add(response);
             await _unitOfWork.Save();
         }
         

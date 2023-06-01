@@ -1,33 +1,29 @@
 using AutoMapper;
-using GenericAPI.Dtos;
 using GenericAPI.Models;
 using GenericApplication.Features.Requests.Queries;
+using GenericDomain.Models;
 using GenericPersistence;
 using MediatR;
 
 namespace GenericApplication.Features.Handlers.Queries;
 
-public class GetGuitarQueryHandler : IRequestHandler<GetGuitarQuery, GuitarDto>
+public class GetGuitarQueryHandler : IRequestHandler<GetGuitarQuery, GuitarModel>
 {
-    private readonly IMapper _mapper;
     private readonly IUnitOfWork _unitOfWork;
 
 
-    public GetGuitarQueryHandler(IMapper mapper, IUnitOfWork unitOfWork)
+    public GetGuitarQueryHandler(IUnitOfWork unitOfWork)
     {
-        _mapper = mapper;
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<GuitarDto> Handle(GetGuitarQuery request, CancellationToken cancellationToken)
+    public async Task<GuitarModel> Handle(GetGuitarQuery request, CancellationToken cancellationToken)
     {
         var guitar = await _unitOfWork.GuitarRepository.Get(request.Id);
         if (guitar is null)
         {
             throw new Exception("We could not find this guitar.");
         }
-
-        var guitarDetails = _mapper.Map<GuitarDto>(guitar);
-        return guitarDetails;
+        return guitar;
     }
 }

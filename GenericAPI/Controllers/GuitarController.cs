@@ -1,9 +1,11 @@
 using GenericAPI.Dtos;
+using GenericAPI.Models;
+using GenericApplication.Features.Requests.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Controllers;
 
 using GenericApplication.Features.Requests.Queries;
+using GenericDomain.Models;
 
 namespace GenericAPI.Controllers;
 
@@ -19,9 +21,19 @@ public class GuitarController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GuitarModel))]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<GuitarDto>> Get(Guid id)
     {
         var guitar = await _mediator.Send(new GetGuitarQuery { Id = id });
         return Ok(guitar);
+    }
+
+    [HttpPost]
+    [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GuitarModel))]
+    public async Task<ActionResult<GuitarDto>> Post(GuitarDto guitar)
+    {
+        var result = await _mediator.Send(new CreateGuitarCommand {CreateGuitarDto = guitar});
+        return Ok(result);
     }
 }
