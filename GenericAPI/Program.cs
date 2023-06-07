@@ -14,6 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 GlobalContext.Properties["webAppName"] = "http://localhost:5054";
 builder.Logging.AddLog4Net();
 
+
+
 builder.Services.ConfigureAppServices();
 builder.Services.InitializeAutomapper();
 builder.Services.PersistenceServices(builder.Configuration);

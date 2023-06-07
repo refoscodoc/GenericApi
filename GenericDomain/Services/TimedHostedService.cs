@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using log4net;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -8,6 +10,9 @@ public class TimedHostedService : IHostedService, IDisposable
     private int executionCount = 0;
     private readonly ILogger<TimedHostedService> _logger;
     public Timer? _timer = null;
+    
+    private static readonly ILog log = LogManager.GetLogger(typeof(TimedHostedService));
+    Process proc = Process.GetCurrentProcess();
     
     public TimedHostedService(ILogger<TimedHostedService> logger)
     {
@@ -26,6 +31,8 @@ public class TimedHostedService : IHostedService, IDisposable
     {
         var count = Interlocked.Increment(ref executionCount);
         _logger.LogInformation("Timed Hosted Service is working. Count: {Count}", count);
+        
+        log.Info(Environment.MachineName + " is using " + (proc.PrivateMemorySize64 / 1024 / 1024) + "Mb of memory.");
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
