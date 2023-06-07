@@ -4,9 +4,15 @@ using GenericApplication.Features.Requests.Commands;
 using GenericDomain.Services;
 using GenericPersistence;
 using GenericPersistence.DataAccess;
+using log4net;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 
 var builder = WebApplication.CreateBuilder(args);
+
+GlobalContext.Properties["webAppName"] = "http://localhost:5054";
+builder.Logging.AddLog4Net();
 
 builder.Services.ConfigureAppServices();
 builder.Services.InitializeAutomapper();
